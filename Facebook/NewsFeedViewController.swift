@@ -179,8 +179,7 @@ class NewsFeedViewController: UIViewController, UIViewControllerTransitioningDel
 
     }
     
-    // Git test comment
-    // Test 2
+    
     
     @IBAction func tapThumbnail(sender: UITapGestureRecognizer) {
         var imageView = sender.view as UIImageView
