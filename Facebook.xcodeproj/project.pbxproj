@@ -21,6 +21,9 @@
 		429277A6198F392800E19641 /* CreatePhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429277A5198F392800E19641 /* CreatePhotoViewController.swift */; };
 		429277A8198F393500E19641 /* CreateCheckinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429277A7198F393500E19641 /* CreateCheckinViewController.swift */; };
 		498DAD131AA03824008F45AC /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498DAD121AA03824008F45AC /* PhotoViewController.swift */; };
+		49CD3F021AA3DF27008BBA3A /* PassData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CD3F011AA3DF27008BBA3A /* PassData.swift */; };
+		49CD3F041AA3E5D7008BBA3A /* CustomTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CD3F031AA3E5D7008BBA3A /* CustomTransition.swift */; };
+		49CD3F061AA3EE85008BBA3A /* KeyWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CD3F051AA3EE85008BBA3A /* KeyWindow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +55,9 @@
 		429277A5198F392800E19641 /* CreatePhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreatePhotoViewController.swift; sourceTree = "<group>"; };
 		429277A7198F393500E19641 /* CreateCheckinViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateCheckinViewController.swift; sourceTree = "<group>"; };
 		498DAD121AA03824008F45AC /* PhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
+		49CD3F011AA3DF27008BBA3A /* PassData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PassData.swift; sourceTree = "<group>"; };
+		49CD3F031AA3E5D7008BBA3A /* CustomTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTransition.swift; sourceTree = "<group>"; };
+		49CD3F051AA3EE85008BBA3A /* KeyWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyWindow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,7 +102,6 @@
 				42167674198EAAC6008CCBC3 /* View Controllers */,
 				42167655198E3220008CCBC3 /* AppDelegate.swift */,
 				42167659198E3220008CCBC3 /* Main.storyboard */,
-				498DAD121AA03824008F45AC /* PhotoViewController.swift */,
 				4216765C198E3220008CCBC3 /* Images.xcassets */,
 				42167653198E3220008CCBC3 /* Supporting Files */,
 			);
@@ -132,6 +137,10 @@
 			isa = PBXGroup;
 			children = (
 				42167679198ECE88008CCBC3 /* NewsFeedViewController.swift */,
+				49CD3F051AA3EE85008BBA3A /* KeyWindow.swift */,
+				498DAD121AA03824008F45AC /* PhotoViewController.swift */,
+				49CD3F011AA3DF27008BBA3A /* PassData.swift */,
+				49CD3F031AA3E5D7008BBA3A /* CustomTransition.swift */,
 				42167677198ECE0E008CCBC3 /* RequestsViewController.swift */,
 				429277A1198F35B600E19641 /* MessagesViewController.swift */,
 				42167675198ECA7C008CCBC3 /* NotificationsViewController.swift */,
@@ -249,9 +258,12 @@
 				42167656198E3220008CCBC3 /* AppDelegate.swift in Sources */,
 				429277A6198F392800E19641 /* CreatePhotoViewController.swift in Sources */,
 				429277A4198F391500E19641 /* CreateStatusViewController.swift in Sources */,
+				49CD3F021AA3DF27008BBA3A /* PassData.swift in Sources */,
+				49CD3F041AA3E5D7008BBA3A /* CustomTransition.swift in Sources */,
 				429277A8198F393500E19641 /* CreateCheckinViewController.swift in Sources */,
 				42167678198ECE0E008CCBC3 /* RequestsViewController.swift in Sources */,
 				42167673198EAABC008CCBC3 /* SettingsViewController.swift in Sources */,
+				49CD3F061AA3EE85008BBA3A /* KeyWindow.swift in Sources */,
 				4216767A198ECE88008CCBC3 /* NewsFeedViewController.swift in Sources */,
 				498DAD131AA03824008F45AC /* PhotoViewController.swift in Sources */,
 			);

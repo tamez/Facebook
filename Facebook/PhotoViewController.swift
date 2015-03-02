@@ -12,20 +12,23 @@ class PhotoViewController: UIViewController {
     
     @IBOutlet weak var imageView: UIImageView!
     
+    // ...Declare the Passed Image
     var passedImage: UIImage!
+    
+    // ...Declare the Passed Frame
     var endFrame: CGRect!
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        
+        // Receive the Passed Image
         imageView.image = passedImage
     
+        // Receive the Passed Frame
         imageView.frame = endFrame
         
         
-        
-        
-
         // Do any additional setup after loading the view.
     }
 

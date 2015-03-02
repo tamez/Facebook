@@ -127,13 +127,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="pbG-na-jU9">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" id="pbG-na-jU9">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <subviews>
                                     <imageView multipleTouchEnabled="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="XPK-pU-ykA">
                                         <rect key="frame" x="0.0" y="47" width="320" height="480"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                        <gestureRecognizers/>
                                     </imageView>
                                     <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="doneButton" id="4Vm-st-Eft">
                                         <rect key="frame" x="255" y="18" width="51" height="27"/>
@@ -154,17 +155,18 @@
                                         <autoresizingMask key="autoresizingMask"/>
                                     </imageView>
                                 </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                             </scrollView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <connections>
                         <outlet property="imageView" destination="XPK-pU-ykA" id="0P9-vv-Qyk"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="muE-MD-9L2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="Jrf-Db-DV9"/>
             </objects>
-            <point key="canvasLocation" x="-1339" y="1436"/>
+            <point key="canvasLocation" x="-999" y="1436"/>
         </scene>
         <!--News Feed View Controller-->
         <scene sceneID="ac3-av-Vri">
@@ -310,7 +312,7 @@
                     </connections>
                 </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="-942" y="1436"/>
+            <point key="canvasLocation" x="-1418" y="1436"/>
         </scene>
         <!--Story View Controller-->
         <scene sceneID="nsQ-Dd-gpo">
@@ -545,7 +547,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dAf-s7-w3E" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-942" y="739"/>
+            <point key="canvasLocation" x="-1205" y="717"/>
         </scene>
         <!--Requests-->
         <scene sceneID="OUA-Wt-eqf">
