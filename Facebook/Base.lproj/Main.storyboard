@@ -127,6 +127,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <view contentMode="scaleToFill" id="uju-0H-NPn" userLabel="blackBgView">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="580"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" id="pbG-na-jU9">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -155,16 +160,20 @@
                                         <autoresizingMask key="autoresizingMask"/>
                                     </imageView>
                                 </subviews>
-                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <gestureRecognizers/>
                             </scrollView>
                         </subviews>
                     </view>
                     <connections>
+                        <outlet property="blackBgView" destination="uju-0H-NPn" id="4Gj-kn-Fm2"/>
+                        <outlet property="doneButton" destination="uoy-KX-uef" id="tSB-OB-CiN"/>
+                        <outlet property="doneButtonImage" destination="4Vm-st-Eft" id="yTM-m0-ieu"/>
                         <outlet property="imageView" destination="XPK-pU-ykA" id="0P9-vv-Qyk"/>
+                        <outlet property="likeBar" destination="oa8-Qf-rBq" id="cBT-gD-pu6"/>
+                        <outlet property="scrollView" destination="pbG-na-jU9" id="efR-Wv-xt6"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="muE-MD-9L2" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <panGestureRecognizer minimumNumberOfTouches="1" id="Jrf-Db-DV9"/>
             </objects>
             <point key="canvasLocation" x="-999" y="1436"/>
         </scene>
